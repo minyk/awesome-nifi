@@ -43,6 +43,7 @@
 * [nifi.rocks](http://www.nifi.rocks)
 * [Richard's Tech Notes](https://richardstechnotes.wordpress.com/category/apache-nifi/)
 * [Fun with Apache NiFi](http://funnifi.blogspot.com)
+* [Dataflow Developer](http://dataflowdeveloper.com)
 
 ### Specific Topics
 
@@ -125,6 +126,8 @@
 * [GPUdb/gpudb-connector-nifi](https://github.com/GPUdb/gpudb-connector-nifi) - GPUdb NiFi Connector
 * [aperepel/nifi-csv-bundle](https://github.com/aperepel/nifi-csv-bundle) - CSV processors
 * [minyk/nifi-headlessbrowser-processor](https://github.com/minyk/nifi-headlessbrowser-processor) - Returns the page source in its current state to FlowFile, including any DOM updates that occurred after page load
+* [PromonLogicalis/nifi-spoofing-bundle](https://github.com/PromonLogicalis/nifi-spoofing-bundle) - NiFi bundle for IP spoofing
+* [mmiklavc/scalable-ocr](https://github.com/mmiklavc/scalable-ocr) - Scalable OCR with Apache NiFi and Tesseract
 
 ## Deployment
 
@@ -165,6 +168,8 @@
 * [SebastianCarroll/nifi-api](https://github.com/SebastianCarroll/nifi-api) - A ruby wrapper for the nifi rest api
 * [jfrazee/nifi-processor-bundle-scala.g8](https://github.com/jfrazee/nifi-processor-bundle-scala.g8) - A giter8 template for generating a new Scala NiFi processor bundle
 * [jdye64/go-nifi](https://github.com/jdye64/go-nifi) - Golang implementation of NiFi Site-to-Site protocol
+* [SebastianCarroll/nifi-api](https://github.com/SebastianCarroll/nifi-api) - A ruby wrapper for the nifi rest api
+* [mattyb149/nifi-script-tester](https://github.com/mattyb149/nifi-script-tester) - A project to create a stub/mock environment for testing ExecuteScript processors
 
 ## License
 

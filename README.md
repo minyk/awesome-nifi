@@ -65,6 +65,8 @@
 * [Optimizing Performance of Apache NiFi's Network Listening Processors](http://bryanbende.com/development/2016/05/09/optimizing-performance-of-apache-nifis-network-listening-processors)
 * [Running NiFi on Raspberry Pi. Best Practices.](https://community.hortonworks.com/articles/32605/running-nifi-on-raspberry-pi-best-practices.html)
 * [Examples integrating NiFi with stream process frameworks](https://github.com/bbende/nifi-streaming-examples)
+* [Use NiFi to Lessen the Friction of Moving Data](https://www.compose.com/articles/lessen-the-friction-of-moving-data-with-nifi/)
+* [Streaming analytics with SAS Event Stream Processing and Apache Nifi](http://blogs.sas.com/content/sascom/2016/07/11/streaming-analytics-sas-event-stream-processing-apache-nifi/)
 
 ### Slides
 
@@ -128,6 +130,12 @@
 * [minyk/nifi-headlessbrowser-processor](https://github.com/minyk/nifi-headlessbrowser-processor) - Returns the page source in its current state to FlowFile, including any DOM updates that occurred after page load
 * [PromonLogicalis/nifi-spoofing-bundle](https://github.com/PromonLogicalis/nifi-spoofing-bundle) - NiFi bundle for IP spoofing
 * [mmiklavc/scalable-ocr](https://github.com/mmiklavc/scalable-ocr) - Scalable OCR with Apache NiFi and Tesseract
+* [openenergi/nifi-azure-datalake](https://github.com/openenergi/nifi-azure-datalake) - A processor to store NiFi flowfiles in Azure Data Lake
+* [simonellistonball/PiWiNiFi](https://github.com/simonellistonball/PiWiNiFi) - A NiFi demo for collecting wifi data from conferences
+* [jskora/nifipie](https://github.com/jskora/nifipie) - Python Tools for the Apache NiFi Rest API
+* [simonellistonball/nifi-ml-bundle](https://github.com/simonellistonball/nifi-ml-bundle) - A bundle for basic scoring machine learning models in NiFi (PMML).
+* [simonellistonball/nifi-audio-bundle](https://github.com/simonellistonball/nifi-audio-bundle) - Various audio related processors for NiFi
+* [pinkdevelops/nifi-googlegeocode-bundle](https://github.com/pinkdevelops/nifi-googlegeocode-bundle) - FlowFile enrichment using google geocode service 
 
 ## Deployment
 
@@ -144,6 +152,7 @@
 
 * [data-wranglers/nifi](https://github.com/data-wranglers/nifi) - Chef cookbook for Nifi install
 * [45fifteen/charm-nifi](https://github.com/45fifteen/charm-nifi) - juju charm for nifi
+* [trevor-vaughan/pupmod-simp-nifi](https://github.com/trevor-vaughan/pupmod-simp-nifi) - Puppet Module for managing Apache NiFi
 
 ### Packages
 

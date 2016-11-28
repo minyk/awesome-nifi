@@ -10,7 +10,7 @@
     - [Videos](#videos)
     - [Mailing List Best Of](#mailing-list-best-of)
 - [Videos](#videos)
-- [Templates](#templates)
+- [Templates](#templates-and-examples)
 - [Processors and Bundles](#processors-and-bundles)
 - [Deployment](#deployment)
     - [Data Flow Deployment](#data-flow-deployment)
@@ -67,6 +67,13 @@
 * [Examples integrating NiFi with stream process frameworks](https://github.com/bbende/nifi-streaming-examples)
 * [Use NiFi to Lessen the Friction of Moving Data](https://www.compose.com/articles/lessen-the-friction-of-moving-data-with-nifi/)
 * [Streaming analytics with SAS Event Stream Processing and Apache Nifi](http://blogs.sas.com/content/sascom/2016/07/11/streaming-analytics-sas-event-stream-processing-apache-nifi/)
+* [Using the Apache Ranger Authorizer](http://bryanbende.com/development/2016/08/22/apache-nifi-1.0.0-using-the-apache-ranger-authorizer)
+* [Overview of X.509 SSL Security on NiFi](http://www.batchiq.com/nifi-overview-ssl-security.html)
+* [Configuring Apache NiFi SSL Authentication](http://www.batchiq.com/nifi-configuring-ssl-auth.html)
+* [Apache NiFi tls-toolkit multi-node standalone in Docker](https://blog.rosander.ninja/nifi/toolkit/tls/2016/09/20/tls-toolkit-standalone-multi.html)
+* [Mongo to Mongo Data Moves with NiFi](https://www.compose.com/articles/mongo-to-mongo-data-moves-with-nifi)
+* [Integrating Apache NiFi and Apache Kafka](http://bryanbende.com/development/2016/09/15/apache-nifi-and-apache-kafka)
+* [Using Apache NiFi to ingest SNMP tables into Avro](http://www.michalklempa.com/2016/10/17/using-apache-nifi-to-ingest-snmp-tables-into-avro)
 
 ### Slides
 
@@ -83,11 +90,15 @@
 ### Mailing List Best Of
 
 * [Re: Persistence of intermediary data in NiFi ?](http://mail-archives.apache.org/mod_mbox/nifi-users/201603.mbox/%3cCALJK9a6t5+B6S0MCCyOOs7hds_4dfnwj-6PjxFR6kXkdp1D3fg@mail.gmail.com%3e)
+* [Re: Need help understanding backpressure](http://mail-archives.apache.org/mod_mbox/nifi-users/201604.mbox/%3cBLU436-SMTP24995D5F6EDF5985AADFE23CE680@phx.gbl%3e)
 
-## Templates
+## Templates and Examples
 
 * [hortonworks-gallery/nifi-templates](https://github.com/hortonworks-gallery/nifi-templates) - A collection of templates for use with Apache NiFi
 * [bikash/nifiIoT](https://github.com/bikash/nifiIoT) - Data Tracking using Apache NiFi in IoT, IoE
+* [BatchIQ/nifi-executescript-samples](https://github.com/BatchIQ/nifi-executescript-samples) - Sample scripts for use with Apache NiFi's ExecuteScript processor
+* [ijokarumawak/nifi-deploy-process-group](https://github.com/ijokarumawak/nifi-deploy-process-group) - Deploy ProcessGroup into your LIVE NiFi data-flow
+* [tbilou/flickr-nifi](https://github.com/tbilou/flickr-nifi) - Using Nifi to easily fetch all photo data from Flickr
 
 ## Processors and Bundles
 
@@ -125,7 +136,7 @@
 * [DhruvKumar/nifi-grok-processor-bundle](https://github.com/DhruvKumar/nifi-grok-processor-bundle) - NiFi processor which can parse using Grok like expressions
 * [DoxoLogic/nifi-generate-content](https://github.com/DoxoLogic/nifi-generate-content) - Apache nifi processor for creating a new FlowFile content based on property value
 * [weaverplatform/weaver-nifi](https://github.com/weaverplatform/weaver-nifi) - Processor implementations for the Apache NiFi platform for connecting to the Weaver Platform
-* [GPUdb/gpudb-connector-nifi](https://github.com/GPUdb/gpudb-connector-nifi) - GPUdb NiFi Connector
+* [kineticadb/kinetica-connector-nifi](kineticadb/kinetica-connector-nifi) - GPUdb NiFi Connector
 * [aperepel/nifi-csv-bundle](https://github.com/aperepel/nifi-csv-bundle) - CSV processors
 * [minyk/nifi-headlessbrowser-processor](https://github.com/minyk/nifi-headlessbrowser-processor) - Returns the page source in its current state to FlowFile, including any DOM updates that occurred after page load
 * [PromonLogicalis/nifi-spoofing-bundle](https://github.com/PromonLogicalis/nifi-spoofing-bundle) - NiFi bundle for IP spoofing
@@ -135,7 +146,16 @@
 * [jskora/nifipie](https://github.com/jskora/nifipie) - Python Tools for the Apache NiFi Rest API
 * [simonellistonball/nifi-ml-bundle](https://github.com/simonellistonball/nifi-ml-bundle) - A bundle for basic scoring machine learning models in NiFi (PMML).
 * [simonellistonball/nifi-audio-bundle](https://github.com/simonellistonball/nifi-audio-bundle) - Various audio related processors for NiFi
-* [pinkdevelops/nifi-googlegeocode-bundle](https://github.com/pinkdevelops/nifi-googlegeocode-bundle) - FlowFile enrichment using google geocode service 
+* [pinkdevelops/nifi-googlegeocode-bundle](https://github.com/pinkdevelops/nifi-googlegeocode-bundle) - FlowFile enrichment using google geocode service
+* [jonathantelfer/nifi-neo4j](https://github.com/jonathantelfer/nifi-neo4j) - Bundle to add data into Neo4J graph databases
+* [compose-ex/nifi-compose-bundle](https://github.com/compose-ex/nifi-compose-bundle) - Mongo streaming and RocksDB processors
+* [sysunite/sysunite-nifi](https://github.com/sysunite/sysunite-nifi) - Generic Sysunite processors
+* [BatchIQ/nifi-file-identity-provider-bundle](https://github.com/BatchIQ/nifi-file-identity-provider-bundle) - Identity Provider for Apache NiFi, allowing username/password authentication backed by a local file store
+* [mrcsparker/nifi-edireader-bundle](https://github.com/mrcsparker/nifi-edireader-bundle) - Apache NIFI processor that converts EDI ASC X12 and EDIFACT documents into XML
+* [mrcsparker/nifi-r-bundle](https://github.com/mrcsparker/nifi-r-bundle) - R Processor for NIFI
+* [pagefault3228/nifi-processor-CheckDiskUsage](https://github.com/pagefault3228/nifi-processor-CheckDiskUsage) - NiFi processor that can monitor flowfile and content repository usage and enable back pressure when limits exceeded
+* [pagefault3228/nifi-reportingtask-NagiosNRDPReporter](https://github.com/pagefault3228/nifi-reportingtask-NagiosNRDPReporter) - NiFi Reporting Task that reports NiFi metrics to Nagios via NRDP
+* [pinkdevelops/nifi-accumulo-service](https://github.com/pinkdevelops/nifi-accumulo-service) - Apache NiFi Controller Service for connecting to Apache Accumulo 1.7.0
 
 ## Deployment
 
@@ -179,6 +199,7 @@
 * [jdye64/go-nifi](https://github.com/jdye64/go-nifi) - Golang implementation of NiFi Site-to-Site protocol
 * [SebastianCarroll/nifi-api](https://github.com/SebastianCarroll/nifi-api) - A ruby wrapper for the nifi rest api
 * [mattyb149/nifi-script-tester](https://github.com/mattyb149/nifi-script-tester) - A project to create a stub/mock environment for testing ExecuteScript processors
+* [bbende/apache-ranger-vagrant](https://github.com/bbende/apache-ranger-vagrant) - Deploys Apache Ranger in a Vagrant VM
 
 ## License
 
